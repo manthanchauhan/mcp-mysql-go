@@ -1,1 +1,5 @@
-./ig/config.go
+ig/config.go
+.vscode
+CLAUDE.md
+go.sum
+mcp-mysql-go
