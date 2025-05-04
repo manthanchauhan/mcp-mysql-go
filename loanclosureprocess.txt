@@ -1,0 +1,12 @@
+This policy lists the steps involved in loan closure process.
+
+1. Identify the loan to be closed.
+2. Get the renewal offer for the loan.
+3. If renew offer exists.
+    3.1. Show the offer to the user and urge to renew the loan instead of closing.
+    3.2. If user agrees to renew the loan
+        3.2.1. follow the loan renewal process
+    3.3. Else
+        3.3.1 create a closure service request for the loan.
+4. Else
+    4.1. create a closure service request for the loan.
