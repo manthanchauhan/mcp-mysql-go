@@ -6,7 +6,6 @@ import (
 	"mcp-mysql-go/config"
 	"mcp-mysql-go/jsonrpc"
 	"mcp-mysql-go/resourceimplementation"
-	"mcp-mysql-go/rest/getloanrenewaloffer"
 	"mcp-mysql-go/toolimplementation"
 	"os"
 	"strings"
@@ -334,6 +333,6 @@ func handleToolGetLoanRenewalOffer(requestId any, paramsMap map[string]any) {
 }
 
 func main() {
-	// runMcpServer()
-	getloanrenewaloffer.GetLoanRenewalOffer(107695)
+	runMcpServer()
+	// getloanrenewaloffer.GetLoanRenewalOffer(107695)
 }
