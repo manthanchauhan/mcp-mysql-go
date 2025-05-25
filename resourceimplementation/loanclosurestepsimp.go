@@ -1,6 +1,6 @@
 package resourceimplementation
 
-import "mcp-mysql-go/mcp"
+import mcp "github.com/manthanchauhan/mcp-go-util/mcp"
 
 var RESOURCE_LOAN_CLOSURE_STEPS = mcp.Resource{
 	Uri:         "file:///Users/manthanchauhan/mcp-mysql-go/loanclosureprocess.txt",

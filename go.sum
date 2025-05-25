@@ -1,2 +1,4 @@
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/manthanchauhan/mcp-go-util v0.0.0-20250525120406-01d409f041ec h1:fmjUvjoPrrWdmEHILxTioY7xtcTLdx1y5IZU5WEFesc=
+github.com/manthanchauhan/mcp-go-util v0.0.0-20250525120406-01d409f041ec/go.mod h1:mCFV/9Dru1SLkGrFV+3XLucg2sQ7KKetG39PeAlJ7WE=

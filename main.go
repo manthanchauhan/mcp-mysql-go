@@ -5,13 +5,14 @@ import (
 	"log"
 	"mcp-mysql-go/config"
 	"mcp-mysql-go/jsonrpc"
-	"mcp-mysql-go/mcp"
-	"mcp-mysql-go/mcp/resourcetypeimpl"
 	"mcp-mysql-go/resourceimplementation"
 	"mcp-mysql-go/rest/getloanrenewaloffer"
 	"mcp-mysql-go/toolimplementation"
 	"os"
 	"strings"
+
+	"github.com/manthanchauhan/mcp-go-util/mcp"
+	"github.com/manthanchauhan/mcp-go-util/mcp/resourcetypeimpl"
 )
 
 const SERVER_NAME = "mcp-mysql"

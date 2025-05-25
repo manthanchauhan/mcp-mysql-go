@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"mcp-mysql-go/config"
-	"mcp-mysql-go/mcp"
 	"mcp-mysql-go/rest/getloanlistbymobile"
+
+	mcp "github.com/manthanchauhan/mcp-go-util/mcp"
 
 	"github.com/google/uuid"
 )

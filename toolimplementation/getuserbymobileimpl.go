@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"mcp-mysql-go/config"
-	"mcp-mysql-go/mcp"
 	"mcp-mysql-go/rest/getuserbymobile"
 
 	"github.com/google/uuid"
+	mcp "github.com/manthanchauhan/mcp-go-util/mcp"
 )
 
 var TOOL_GET_USER_BY_MOBILE = mcp.Tool{

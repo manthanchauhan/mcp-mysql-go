@@ -3,8 +3,9 @@ package toolimplementation
 import (
 	"fmt"
 	"mcp-mysql-go/config"
-	"mcp-mysql-go/mcp"
 	"os"
+
+	mcp "github.com/manthanchauhan/mcp-go-util/mcp"
 
 	"github.com/google/uuid"
 )
